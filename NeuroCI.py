@@ -51,7 +51,7 @@ def main(cbrain_token, CCI_token, experiment_definition, cbrain_ids, latest_arti
 ##################################################################################
 
 #Obtain login credentials from args, stored in CI environment variables.
-
+print(f"sys.argv: {sys.argv}")
 cbrain_user = sys.argv[1]
 cbrain_password = sys.argv[2]
 CCI_token = sys.argv[3]
